@@ -72,7 +72,7 @@
             }
 
             try {
-                const response = await fetch(`https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec?query=${encodeURIComponent(query)}`);
+                const response = await fetch(`https://script.google.com/macros/s/AKfycbyoVd2i1pqZpgnz7qfETAgvwr_voIFZ7bHBQ5jncxfURyZtiBceB-rThIGEaZI7lk4S/exec?query=${encodeURIComponent(query)}`);
                 const data = await response.json();
 
                 if (data.error) {
